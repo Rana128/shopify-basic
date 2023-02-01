@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.basic_class{
+    width: 1200px;
+    margin: 120px auto;
+    padding: 60px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 30px;
+    text-align: center;
+}
+iframe{
+    padding-top: 30px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.basic_class h1{
+    margin: 0;
+    color: #079992;
+    letter-spacing: 3;
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.color-1{
+    color: #78e08f;
+}
+.color-2{
+    color: #4a69bd;
+}
+
+mark{
+    background-color: #b71540;
+    color: #ffffff;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.bg-part h2{
+    margin: 0;
+    font-size: 70px;
+    color: #fff;
+}
+.bg-part-1 h2{
+    margin: 0;
+    font-size: 70px;
+    color: #000000;
+}
+.bg-part{
+    text-align: center;
+    padding: 300px 0;
+    background-image: url(../images/banner-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-part-1{
+    text-align: center;
+    padding: 300px 0;
+    background-image: url(https://cdn.pixabay.com/photo/2023/01/25/12/48/overcast-7743510_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
